@@ -1,14 +1,19 @@
-niw/homebrew-additions
-======================
+Homebrew Formula Additions
+==========================
 
-How do I install these formulae?
---------------------------------
-Just `brew tap niw/additions` and then `brew install <formula>`.
+Temporary additional Fomula for [Homebrew](https://brew.sh/).
 
-If the formula conflicts with one from mxcl/master or another tap, you can `brew install niw/additions/<formula>`.
+Usage
+-----
 
-You can also install via URL:
+Install available Formulas with like following command.
 
 ```
-brew install https://raw.github.com/niw/homebrew-additions/master/<formula>.rb
+$ brew install niw/additions/$NAME_OF_FORMULA
+```
+
+Also, use `brew tap` to only tap formulas.
+
+```
+$ brew tap niw/tap
 ```
